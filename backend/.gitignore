@@ -1,0 +1,66 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependency directories
+jspm_packages/
+
+# Build output
+dist/
+build/
+tmp/
+temp/
+
+# Coverage
+coverage/
+*.lcov
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Optional: Prisma / ORM generated files
+prisma/dev.db
+prisma/*.sqlite
+
+# Optional: If you’re using Next.js for API routes
+.next/
+
+# Optional: PM2 process files
+.pids/
+.pm2/
+
+# Optional: Swagger / OpenAPI generated files
+swagger-output.json
+
+# Optional: Cache
+.cache/
+.nyc_output/
+.env
